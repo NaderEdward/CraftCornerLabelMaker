@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "template_name": "plain_labels_NCS_stitches_AR",
+  "template_canvas": {
+    "width": 3744,
+    "height": 2100,
+    "native_dpi": 150
+  },
+  "template_fingerprint": "sha256:18afc304839074c7edba900119a248800780366a46edc305aeeba4ed546542cf",
+  "updated_at": "2026-08-12T19:04:56.397992+00:00",
+  "regions": [
+    {
+      "id": "large_labels",
+      "label": "Large Labels",
+      "rect": {
+        "x": 1,
+        "y": 5,
+        "w": 1235,
+        "h": 1124
+      },
+      "sku_match": [
+        "large labels",
+        "large label"
+      ],
+      "gap_mm": 3.0,
+      "allow_rotate": false,
+      "notes": "",
+      "paper_type": "regular"
+    },
+    {
+      "id": "bag_tag",
+      "label": "Bag Tag",
+      "rect": {
+        "x": 1334,
+        "y": 1526,
+        "w": 547,
+        "h": 349
+      },
+      "sku_match": [
+        "bag tag",
+        "wooden tag",
+        "wood tag",
+        "laminated tag",
+        "bag tag only"
+      ],
+      "gap_mm": 3.0,
+      "allow_rotate": false,
+      "notes": "",
+      "paper_type": "regular"
+    },
+    {
+      "id": "iron_on_labels",
+      "label": "Iron-On Labels",
+      "rect": {
+        "x": 1254,
+        "y": 1887,
+        "w": 1242,
+        "h": 182
+      },
+      "sku_match": [
+        "iron on labels",
+        "iron on",
+        "iron-on"
+      ],
+      "gap_mm": 1.0,
+      "allow_rotate": false,
+      "notes": "",
+      "paper_type": "iron_on"
+    },
+    {
+      "id": "lunch_tag",
+      "label": "Lunch Tag",
+      "rect": {
+        "x": 2465,
+        "y": 1657,
+        "w": 344,
+        "h": 220
+      },
+      "sku_match": [
+        "lunch tag",
+        "lunch label"
+      ],
+      "gap_mm": 3.0,
+      "allow_rotate": false,
+      "notes": "",
+      "paper_type": "regular"
+    },
+    {
+      "id": "medium_labels",
+      "label": "Medium Labels",
+      "rect": {
+        "x": 1237,
+        "y": 5,
+        "w": 1235,
+        "h": 1124
+      },
+      "sku_match": [
+        "medium labels",
+        "medium label"
+      ],
+      "gap_mm": 3.0,
+      "allow_rotate": false,
+      "notes": "",
+      "paper_type": "regular"
+    },
+    {
+      "id": "mixed_labels",
+      "label": "Mixed Labels",
+      "rect": {
+        "x": 2477,
+        "y": 1,
+        "w": 1235,
+        "h": 1628
+      },
+      "sku_match": [
+        "mixed labels",
+        "mixed label"
+      ],
+      "gap_mm": 3.0,
+      "allow_rotate": false,
+      "notes": "",
+      "paper_type": "regular"
+    },
+    {
+      "id": "order_id",
+      "label": "Order ID Card",
+      "rect": {
+        "x": 1884,
+        "y": 1513,
+        "w": 491,
+        "h": 365
+      },
+      "sku_match": [
+        "order id",
+        "order card",
+        "order label"
+      ],
+      "gap_mm": 3.0,
+      "allow_rotate": false,
+      "notes": "",
+      "paper_type": "regular"
+    },
+    {
+      "id": "pencil_labels",
+      "label": "Pencil Labels",
+      "rect": {
+        "x": 3,
+        "y": 1130,
+        "w": 1235,
+        "h": 843
+      },
+      "sku_match": [
+        "pencil labels",
+        "pencil label"
+      ],
+      "gap_mm": 3.0,
+      "allow_rotate": false,
+      "notes": "",
+      "paper_type": "regular"
+    }
+  ]
+}
