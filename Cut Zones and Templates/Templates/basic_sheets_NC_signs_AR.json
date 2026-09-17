@@ -1,0 +1,4062 @@
+{
+  "name": "Basic sheets Name Stitches",
+  "version": "1.0",
+  "canvas": {
+    "width": 3744,
+    "height": 2100,
+    "background_image": "",
+    "native_dpi": 150
+  },
+  "label_rows": [
+    {
+      "id": "group",
+      "label": "Row 1",
+      "text_zones": [
+        {
+          "id": "zone",
+          "x": 254,
+          "y": 104,
+          "w": 234,
+          "h": 82,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1",
+          "x": 824,
+          "y": 82,
+          "w": 259,
+          "h": 97,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1",
+          "x": 187,
+          "y": 345,
+          "w": 188,
+          "h": 70,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_1",
+          "x": 496,
+          "y": 358,
+          "w": 183,
+          "h": 73,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_2",
+          "x": 1011,
+          "y": 367,
+          "w": 151,
+          "h": 56,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_3",
+          "x": 225,
+          "y": 563,
+          "w": 260,
+          "h": 51,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_3_1",
+          "x": 848,
+          "y": 557,
+          "w": 260,
+          "h": 54,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_2_1",
+          "x": 80,
+          "y": 737,
+          "w": 159,
+          "h": 58,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_2_1_1",
+          "x": 559,
+          "y": 739,
+          "w": 182,
+          "h": 65,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_2_1_1_1",
+          "x": 878,
+          "y": 707,
+          "w": 151,
+          "h": 72,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "NotoSansArabic"
+        },
+        {
+          "id": "zone_1_1_1_1",
+          "x": 184,
+          "y": 904,
+          "w": 188,
+          "h": 64,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "NotoSansArabic"
+        },
+        {
+          "id": "zone_1_1_2_1_2",
+          "x": 478,
+          "y": 928,
+          "w": 169,
+          "h": 66,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "NotoSansArabic"
+        },
+        {
+          "id": "zone_1_1_2_1_2_1",
+          "x": 873,
+          "y": 915,
+          "w": 177,
+          "h": 56,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "NotoSansArabic"
+        },
+        {
+          "id": "zone_2",
+          "x": 61,
+          "y": 1142,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3",
+          "x": 1343,
+          "y": 45,
+          "w": 129,
+          "h": 38,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_1",
+          "x": 1374,
+          "y": 194,
+          "w": 87,
+          "h": 114,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_2",
+          "x": 1673,
+          "y": 60,
+          "w": 97,
+          "h": 77,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3",
+          "x": 1560,
+          "y": 285,
+          "w": 141,
+          "h": 51,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_1",
+          "x": 1951,
+          "y": 40,
+          "w": 130,
+          "h": 37,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_1_1",
+          "x": 2270,
+          "y": 39,
+          "w": 154,
+          "h": 38,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_1_1_1",
+          "x": 1947,
+          "y": 182,
+          "w": 112,
+          "h": 45,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_1_2",
+          "x": 2202,
+          "y": 184,
+          "w": 141,
+          "h": 36,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_1_1",
+          "x": 2329,
+          "y": 376,
+          "w": 84,
+          "h": 85,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2",
+          "x": 1971,
+          "y": 329,
+          "w": 160,
+          "h": 34,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1",
+          "x": 1984,
+          "y": 463,
+          "w": 161,
+          "h": 35,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_1",
+          "x": 1661,
+          "y": 464,
+          "w": 150,
+          "h": 37,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_1_1",
+          "x": 1295,
+          "y": 449,
+          "w": 164,
+          "h": 45,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_1_1_1",
+          "x": 1376,
+          "y": 597,
+          "w": 129,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_1_2",
+          "x": 1672,
+          "y": 640,
+          "w": 102,
+          "h": 83,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_1_1_2",
+          "x": 1946,
+          "y": 613,
+          "w": 133,
+          "h": 41,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_2",
+          "x": 2281,
+          "y": 612,
+          "w": 145,
+          "h": 39,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_2_1",
+          "x": 2220,
+          "y": 750,
+          "w": 158,
+          "h": 30,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_2_1_1",
+          "x": 1915,
+          "y": 760,
+          "w": 125,
+          "h": 45,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_2_1_1_1",
+          "x": 1909,
+          "y": 876,
+          "w": 154,
+          "h": 35,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_2_1_1_1_1",
+          "x": 1606,
+          "y": 995,
+          "w": 137,
+          "h": 42,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_1_1_2_1",
+          "x": 1619,
+          "y": 852,
+          "w": 128,
+          "h": 34,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_1_1_1",
+          "x": 2339,
+          "y": 905,
+          "w": 68,
+          "h": 86,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_1_1_2_2",
+          "x": 1921,
+          "y": 1005,
+          "w": 150,
+          "h": 42,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_1_1_2_2_1",
+          "x": 1353,
+          "y": 992,
+          "w": 151,
+          "h": 43,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_1_1_1_1",
+          "x": 1395,
+          "y": 765,
+          "w": 57,
+          "h": 91,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_2_2",
+          "x": 1392,
+          "y": 1905,
+          "w": 213,
+          "h": 53,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_5",
+          "x": 2128,
+          "y": 1752,
+          "w": 198,
+          "h": 43,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "id": "zone_6",
+          "x": 2129,
+          "y": 1800,
+          "w": 196,
+          "h": 31,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "order_number",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7",
+          "x": 2736,
+          "y": 89,
+          "w": 294,
+          "h": 102,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1",
+          "x": 3350,
+          "y": 65,
+          "w": 277,
+          "h": 102,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1",
+          "x": 2706,
+          "y": 352,
+          "w": 150,
+          "h": 80,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1",
+          "x": 3097,
+          "y": 352,
+          "w": 150,
+          "h": 80,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1",
+          "x": 3478,
+          "y": 334,
+          "w": 157,
+          "h": 81,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1",
+          "x": 2687,
+          "y": 600,
+          "w": 150,
+          "h": 80,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1",
+          "x": 3066,
+          "y": 600,
+          "w": 150,
+          "h": 80,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1",
+          "x": 3455,
+          "y": 570,
+          "w": 143,
+          "h": 87,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1",
+          "x": 2707,
+          "y": 837,
+          "w": 150,
+          "h": 80,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1",
+          "x": 3098,
+          "y": 837,
+          "w": 150,
+          "h": 80,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1",
+          "x": 3494,
+          "y": 809,
+          "w": 145,
+          "h": 81,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 3537,
+          "y": 1048,
+          "w": 108,
+          "h": 68,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 3241,
+          "y": 1065,
+          "w": 110,
+          "h": 65,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 2952,
+          "y": 1065,
+          "w": 110,
+          "h": 65,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 2664,
+          "y": 1065,
+          "w": 110,
+          "h": 65,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 2657,
+          "y": 1268,
+          "w": 110,
+          "h": 65,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 2942,
+          "y": 1268,
+          "w": 110,
+          "h": 65,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 3234,
+          "y": 1268,
+          "w": 110,
+          "h": 65,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 3528,
+          "y": 1244,
+          "w": 101,
+          "h": 63,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 3544,
+          "y": 1433,
+          "w": 95,
+          "h": 63,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 3237,
+          "y": 1452,
+          "w": 110,
+          "h": 65,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 2947,
+          "y": 1452,
+          "w": 110,
+          "h": 65,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_7_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 2661,
+          "y": 1452,
+          "w": 110,
+          "h": 65,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_2_2_1",
+          "x": 1819,
+          "y": 1903,
+          "w": 213,
+          "h": 59,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_3_3_2_1_2_2_1_1",
+          "x": 2144,
+          "y": 1903,
+          "w": 213,
+          "h": 53,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_2_1",
+          "x": 61,
+          "y": 1211,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_1_1",
+          "x": 61,
+          "y": 1281,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_2",
+          "x": 306,
+          "y": 1142,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_1_1_1",
+          "x": 61,
+          "y": 1350,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_1_1_1_1",
+          "x": 61,
+          "y": 1420,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_1_1_1_1_1",
+          "x": 61,
+          "y": 1489,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_1_1_1_1_1_1",
+          "x": 61,
+          "y": 1559,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_1_1_1_1_1_1_1",
+          "x": 61,
+          "y": 1628,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_1_1_1_1_1_1_1_1",
+          "x": 61,
+          "y": 1698,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_1_1_1_1_1_1_1_1_1",
+          "x": 61,
+          "y": 1767,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_1_1_1_1_1_1_1_1_1_1",
+          "x": 61,
+          "y": 1837,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 61,
+          "y": 1906,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_2_1",
+          "x": 306,
+          "y": 1211,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_2_1_1",
+          "x": 306,
+          "y": 1281,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_2_1_1_1",
+          "x": 306,
+          "y": 1350,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_2_1_1_1_1",
+          "x": 306,
+          "y": 1420,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_2_1_1_1_1_1",
+          "x": 306,
+          "y": 1489,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_2_1_1_1_1_1_1",
+          "x": 306,
+          "y": 1559,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_2_1_1_1_1_1_1_1",
+          "x": 306,
+          "y": 1628,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_2_1_1_1_1_1_1_1_1",
+          "x": 306,
+          "y": 1698,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_2_1_1_1_1_1_1_1_1_1",
+          "x": 306,
+          "y": 1767,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_2_1_1_1_1_1_1_1_1_1_1",
+          "x": 306,
+          "y": 1837,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_2_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 306,
+          "y": 1906,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_3",
+          "x": 549,
+          "y": 1142,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_3_1",
+          "x": 549,
+          "y": 1211,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_3_1_1",
+          "x": 549,
+          "y": 1281,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_3_1_1_1",
+          "x": 549,
+          "y": 1350,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_3_1_1_1_1",
+          "x": 549,
+          "y": 1420,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_3_1_1_1_1_1",
+          "x": 549,
+          "y": 1489,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_3_1_1_1_1_1_1",
+          "x": 549,
+          "y": 1559,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_3_1_1_1_1_1_1_1",
+          "x": 549,
+          "y": 1628,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_3_1_1_1_1_1_1_1_1",
+          "x": 549,
+          "y": 1698,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_3_1_1_1_1_1_1_1_1_1",
+          "x": 549,
+          "y": 1767,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_3_1_1_1_1_1_1_1_1_1_1",
+          "x": 549,
+          "y": 1837,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_3_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 549,
+          "y": 1906,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_4",
+          "x": 794,
+          "y": 1142,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_4_1",
+          "x": 794,
+          "y": 1211,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_4_1_1",
+          "x": 794,
+          "y": 1281,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_4_1_1_1",
+          "x": 794,
+          "y": 1350,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_4_1_1_1_1",
+          "x": 794,
+          "y": 1420,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_4_1_1_1_1_1",
+          "x": 794,
+          "y": 1489,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_4_1_1_1_1_1_1",
+          "x": 794,
+          "y": 1559,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_4_1_1_1_1_1_1_1",
+          "x": 794,
+          "y": 1628,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_4_1_1_1_1_1_1_1_1",
+          "x": 794,
+          "y": 1698,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_4_1_1_1_1_1_1_1_1_1",
+          "x": 794,
+          "y": 1767,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_4_1_1_1_1_1_1_1_1_1_1",
+          "x": 794,
+          "y": 1837,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_4_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 794,
+          "y": 1906,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_5",
+          "x": 1037,
+          "y": 1142,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_5_1",
+          "x": 1037,
+          "y": 1211,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_5_1_1",
+          "x": 1037,
+          "y": 1281,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_5_1_1_1",
+          "x": 1037,
+          "y": 1350,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_5_1_1_1_1",
+          "x": 1037,
+          "y": 1420,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_5_1_1_1_1_1",
+          "x": 1037,
+          "y": 1489,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_5_1_1_1_1_1_1",
+          "x": 1037,
+          "y": 1559,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_5_1_1_1_1_1_1_1",
+          "x": 1037,
+          "y": 1628,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_5_1_1_1_1_1_1_1_1",
+          "x": 1037,
+          "y": 1698,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_5_1_1_1_1_1_1_1_1_1",
+          "x": 1037,
+          "y": 1767,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_5_1_1_1_1_1_1_1_1_1_1",
+          "x": 1037,
+          "y": 1837,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_2_5_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 1037,
+          "y": 1906,
+          "w": 138,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "Before the Rainbow",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_1_1_2_2_1_1",
+          "x": 1391,
+          "y": 1956,
+          "w": 215,
+          "h": 44,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_1_1_2_2_1_1_1",
+          "x": 1818,
+          "y": 1954,
+          "w": 215,
+          "h": 46,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_1_1_2_2_1_1_1_1",
+          "x": 2143,
+          "y": 1952,
+          "w": 215,
+          "h": 48,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "NotoSansArabic",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_1_1_2_2_1_1_1_1_1",
+          "x": 1566,
+          "y": 1677,
+          "w": 271,
+          "h": 63,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "DG Sahabah Reg",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_3_3_2_1_1_1_2_2_1_1_1_1_1_1",
+          "x": 2613,
+          "y": 1754,
+          "w": 164,
+          "h": 42,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name_arabic",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "DG Sahabah Reg",
+          "font_bold": true,
+          "font_italic": false
+        },
+        {
+          "id": "zone_4",
+          "x": 1574,
+          "y": 1567,
+          "w": 255,
+          "h": 114,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "font_name": "KIDSPLAY",
+          "font_bold": true,
+          "font_italic": false,
+          "font_size": 70
+        },
+        {
+          "id": "zone_3_3_2_1_2_2_1_2",
+          "x": 2609,
+          "y": 1674,
+          "w": 172,
+          "h": 74,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "name",
+          "text_color": [
+            10,
+            10,
+            10
+          ],
+          "font_name": "KIDSPLAY",
+          "font_bold": true,
+          "font_italic": false,
+          "font_size": 50
+        },
+        {
+          "id": "zone_1_1_4",
+          "x": 331,
+          "y": 200,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1",
+          "x": 241,
+          "y": 419,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1",
+          "x": 548,
+          "y": 439,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1",
+          "x": 914,
+          "y": 190,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_1",
+          "x": 1047,
+          "y": 430,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_1_1",
+          "x": 938,
+          "y": 614,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_1_1_1",
+          "x": 913,
+          "y": 802,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_1_1_2",
+          "x": 315,
+          "y": 619,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_1_1_2_1",
+          "x": 119,
+          "y": 800,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_1_1_2_2",
+          "x": 610,
+          "y": 809,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_1_1_2_2_1",
+          "x": 236,
+          "y": 1012,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_1_1_2_2_1_1",
+          "x": 523,
+          "y": 1026,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_1_1_2_2_1_1_1",
+          "x": 921,
+          "y": 1024,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2",
+          "x": 1368,
+          "y": 90,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1",
+          "x": 1378,
+          "y": 318,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1",
+          "x": 1591,
+          "y": 347,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1",
+          "x": 1334,
+          "y": 501,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1",
+          "x": 1696,
+          "y": 511,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1",
+          "x": 1400,
+          "y": 649,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1",
+          "x": 1383,
+          "y": 875,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1",
+          "x": 1643,
+          "y": 901,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_1",
+          "x": 1389,
+          "y": 1055,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_1_1",
+          "x": 1635,
+          "y": 1055,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_1_1_1",
+          "x": 1956,
+          "y": 1063,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 2336,
+          "y": 1016,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 2259,
+          "y": 786,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 1937,
+          "y": 811,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_1_1_1_1_1_1_1",
+          "x": 1946,
+          "y": 922,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2",
+          "x": 1683,
+          "y": 732,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1",
+          "x": 1972,
+          "y": 667,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1",
+          "x": 2025,
+          "y": 505,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1",
+          "x": 2331,
+          "y": 469,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_1",
+          "x": 2314,
+          "y": 656,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2",
+          "x": 2232,
+          "y": 228,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1",
+          "x": 2307,
+          "y": 90,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_2",
+          "x": 1963,
+          "y": 233,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_2_1",
+          "x": 1970,
+          "y": 84,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_2_1_1",
+          "x": 1682,
+          "y": 150,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_2",
+          "x": 2011,
+          "y": 367,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1",
+          "x": 2843,
+          "y": 222,
+          "w": 80,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_1",
+          "x": 3448,
+          "y": 211,
+          "w": 80,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2",
+          "x": 2741,
+          "y": 467,
+          "w": 80,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_1",
+          "x": 3132,
+          "y": 467,
+          "w": 80,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_1_1",
+          "x": 3514,
+          "y": 462,
+          "w": 80,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2",
+          "x": 2722,
+          "y": 704,
+          "w": 80,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_1",
+          "x": 3101,
+          "y": 701,
+          "w": 80,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_1_1",
+          "x": 3491,
+          "y": 704,
+          "w": 80,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2",
+          "x": 2742,
+          "y": 943,
+          "w": 80,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_1",
+          "x": 3133,
+          "y": 943,
+          "w": 80,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_1_1",
+          "x": 3527,
+          "y": 935,
+          "w": 80,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_2",
+          "x": 2679,
+          "y": 1147,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_3",
+          "x": 2967,
+          "y": 1147,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_3_1",
+          "x": 3256,
+          "y": 1147,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_3_1_1",
+          "x": 3551,
+          "y": 1142,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_2_1",
+          "x": 2676,
+          "y": 1337,
+          "w": 61,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_2_1_1",
+          "x": 2963,
+          "y": 1336,
+          "w": 62,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_2_1_1_1",
+          "x": 3253,
+          "y": 1336,
+          "w": 64,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_2_1_1_1_1",
+          "x": 3532,
+          "y": 1342,
+          "w": 80,
+          "h": 20,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_2_1_2",
+          "x": 2676,
+          "y": 1528,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_2_1_2_1",
+          "x": 2962,
+          "y": 1528,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_2_1_2_1_1",
+          "x": 3252,
+          "y": 1528,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_2_1_1_1_2_1_1_2_2_2_2_1_2_1_1_1",
+          "x": 3552,
+          "y": 1532,
+          "w": 80,
+          "h": 18,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_1_1_2",
+          "x": 1635,
+          "y": 1794,
+          "w": 134,
+          "h": 40,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            255,
+            255,
+            255
+          ],
+          "font_name": "KIDSPLAY"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_1_1_3",
+          "x": 1464,
+          "y": 2022,
+          "w": 69,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_1_1_3_1",
+          "x": 1891,
+          "y": 2021,
+          "w": 69,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_1_1_3_1_1",
+          "x": 2216,
+          "y": 2020,
+          "w": 69,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            0,
+            0,
+            0
+          ],
+          "font_name": "Before the Rainbow"
+        },
+        {
+          "id": "zone_1_1_4_1_1_1_2_1_1_1_1_1_1_1_1_1_2_1",
+          "x": 2655,
+          "y": 1822,
+          "w": 80,
+          "h": 23,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 0,
+          "text_key": "grade",
+          "text_color": [
+            255,
+            255,
+            255
+          ],
+          "font_name": "KIDSPLAY"
+        }
+      ]
+    }
+  ],
+  "extra_zones": []
+}

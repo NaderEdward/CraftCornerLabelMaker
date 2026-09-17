@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "template_name": "extras_nc",
+  "template_canvas": {
+    "width": 3359,
+    "height": 1159,
+    "native_dpi": 150
+  },
+  "template_fingerprint": "sha256:28d6c0428bd220e9e069d90ef4aad77fc561ceca666910b7528ce9808309d4ee",
+  "updated_at": "2026-08-12T19:04:56.397992+00:00",
+  "regions": [
+    {
+      "id": "payment_sheet",
+      "label": "Payment Labels",
+      "rect": {
+        "x": 0,
+        "y": 8,
+        "w": 1243,
+        "h": 1128
+      },
+      "sku_match": [
+        "payment labels",
+        "payment label"
+      ],
+      "gap_mm": 3.0,
+      "allow_rotate": false,
+      "notes": "",
+      "paper_type": "regular"
+    },
+    {
+      "id": "shoe_labels",
+      "label": "Shoe Labels",
+      "rect": {
+        "x": 2505,
+        "y": 10,
+        "w": 771,
+        "h": 772
+      },
+      "sku_match": [
+        "shoe labels",
+        "shoes labels",
+        "shoe label"
+      ],
+      "gap_mm": 3.0,
+      "allow_rotate": false,
+      "notes": "",
+      "paper_type": "regular"
+    },
+    {
+      "id": "subject_sheet",
+      "label": "Subject Labels",
+      "rect": {
+        "x": 1247,
+        "y": 10,
+        "w": 1234,
+        "h": 1128
+      },
+      "sku_match": [
+        "subject labels",
+        "subject label"
+      ],
+      "gap_mm": 3.0,
+      "allow_rotate": false,
+      "notes": "",
+      "paper_type": "regular"
+    }
+  ]
+}

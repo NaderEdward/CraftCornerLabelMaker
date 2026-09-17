@@ -1,0 +1,31 @@
+{
+  "name": "bag tag",
+  "version": "1.0",
+  "canvas": {
+    "width": 3744,
+    "height": 2100,
+    "native_dpi": 150
+  },
+  "label_rows": [
+    {
+      "id": "group",
+      "label": "Row 1",
+      "text_zones": [
+        {
+          "id": "zone",
+          "x": 1334,
+          "y": 1526,
+          "w": 547,
+          "h": 349,
+          "align": "center",
+          "valign": "middle",
+          "max_font_size": 48,
+          "min_font_size": 8,
+          "padding": 10,
+          "text_key": "name"
+        }
+      ]
+    }
+  ],
+  "extra_zones": []
+}
