@@ -1,0 +1,7 @@
+{
+  "shop": {
+    "id": 99,
+    "name": "Test Shop",
+    "domain": "test-shop.myshopify.com"
+  }
+}

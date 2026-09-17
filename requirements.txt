@@ -1,0 +1,37 @@
+# rendering (vendored/shared behaviour with LabelGen)
+Pillow>=10.0.0
+arabic-reshaper>=3.0.0
+python-bidi>=0.4.2
+reportlab>=4.0.0
+PyInstaller>=6.0.0
+
+# new — required
+requests>=2.31.0        # Shopify HTTP
+keyring>=24.0.0          # OS keychain for the access token
+openpyxl>=3.1.0          # Excel report
+
+# new — optional (region auto-proposal, §6.2 Fallback B, only)
+# numpy>=1.24
+# scipy>=1.10
+
+# testing
+pytest>=8.0.0
+
+# name-only theme (Chromatix decorative fonts)
+fonttools>=4.40.0        # read the font's SVG colour table
+pymupdf>=1.24.0          # rasterise SVG glyphs offline (no browser needed)
+numpy>=1.24              # fast alpha compositing, AND the round decorative
+                         # stroke (exact Euclidean distance transform, see
+                         # chromatix_renderer._sq_dist_to_mask). NOT optional:
+                         # without numpy the stroke degrades to a square
+                         # kernel and outlines print with flat, castellated
+                         # shoulders. Deliberately NOT scipy — scipy is not
+                         # installed on the production machine and a silent
+                         # fallback to the square kernel shipped unnoticed.
+selenium>=4.20.0         # OPTIONAL: higher-fidelity Firefox renderer
+
+# web server
+fastapi>=0.111.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
+sse-starlette>=2.1.0

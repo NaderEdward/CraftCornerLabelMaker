@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Production Report — Craft Corner Label Maker</title>
+<style>
+/* ============================================================
+   Craft Corner Label Maker — Production Report
+   Self-contained. No CDN, no network fonts, no external assets.
+   Palette is drawn from the workshop itself: cutting-mat green,
+   kraft paper, and the vinyl colours used on the label sheets.
+   ============================================================ */
+:root{
+  --mat:#16332E;          /* self-healing cutting mat */
+  --mat-line:#20463F;     /* mat grid */
+  --mat-deep:#0E211D;
+  --paper:#F1F0EA;        /* kraft-adjacent working surface */
+  --card:#FFFFFF;
+  --ink:#15201D;
+  --ink-2:#54615C;
+  --ink-3:#8A948F;
+  --rule:#DFDDD4;
+  --amber:#D9902F;        /* fill gauge */
+  --amber-soft:#F6E7CE;
+  --held:#B4553C;         /* held back */
+  --held-soft:#F6DFD8;
+  --ok:#2F7A63;
+  --vinyl-1:#3E7CB1;
+  --vinyl-2:#D9902F;
+  --vinyl-3:#2F7A63;
+  --vinyl-4:#B4553C;
+  --vinyl-5:#7A5EA8;
+  --vinyl-6:#С;
+  --sans:"Segoe UI Variable Text","Segoe UI",system-ui,-apple-system,sans-serif;
+  --mono:"Cascadia Mono",Consolas,ui-monospace,"SF Mono",monospace;
+  --arabic:"Segoe UI","Noto Sans Arabic","Traditional Arabic",serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:15px;line-height:1.5;
+}
+
+/* ---------- Masthead: the cutting mat ---------- */
+.mast{
+  background:var(--mat);color:#EAF0EE;padding:34px 32px 30px;
+  background-image:
+    linear-gradient(var(--mat-line) 1px,transparent 1px),
+    linear-gradient(90deg,var(--mat-line) 1px,transparent 1px);
+  background-size:26px 26px;
+  border-bottom:3px solid var(--mat-deep);
+}
+.mast-in{max-width:1180px;margin:0 auto}
+.eyebrow{
+  font-family:var(--mono);font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:#7FA79C;margin:0 0 6px;
+}
+.mast h1{
+  margin:0;font-size:31px;font-weight:650;letter-spacing:-.02em;
+}
+.mast h1 span{color:#7FA79C;font-weight:400}
+
+/* ---------- Summary strip ---------- */
+.stats{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:1px;background:var(--mat-line);margin-top:26px;
+  border:1px solid var(--mat-line);
+}
+.stat{background:rgba(9,26,23,.55);padding:14px 16px}
+.stat dt{
+  font-family:var(--mono);font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:#7FA79C;margin:0 0 4px;
+}
+.stat dd{margin:0;font-size:25px;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.stat dd small{font-size:13px;font-weight:400;color:#7FA79C;margin-left:2px}
+
+/* ---------- Toolbar ---------- */
+.bar{
+  position:sticky;top:0;z-index:20;background:var(--paper);
+  border-bottom:1px solid var(--rule);padding:12px 32px;
+}
+.bar-in{max-width:1180px;margin:0 auto;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.search{flex:1;min-width:220px;position:relative}
+.search input{
+  width:100%;padding:9px 12px 9px 32px;font:inherit;color:var(--ink);
+  background:var(--card);border:1px solid var(--rule);border-radius:3px;
+}
+.search input:focus{outline:2px solid var(--mat);outline-offset:1px;border-color:var(--mat)}
+.search svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--ink-3)}
+.seg{display:flex;border:1px solid var(--rule);border-radius:3px;overflow:hidden;background:var(--card)}
+.seg button{
+  font:inherit;font-size:13px;padding:8px 14px;border:0;background:transparent;
+  color:var(--ink-2);cursor:pointer;border-right:1px solid var(--rule);
+}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--mat);color:#fff}
+.count{font-family:var(--mono);font-size:12px;color:var(--ink-3)}
+
+/* ---------- Layout ---------- */
+main{max-width:1180px;margin:0 auto;padding:26px 32px 70px}
+.sec-head{
+  display:flex;align-items:baseline;gap:10px;margin:0 0 14px;
+}
+.sec-head h2{
+  font-size:12px;font-family:var(--mono);letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-2);margin:0;font-weight:600;
+}
+.sec-head .rule{flex:1;height:1px;background:var(--rule)}
+
+/* ---------- Sheet card ---------- */
+.sheet{
+  background:var(--card);border:1px solid var(--rule);border-radius:4px;
+  margin-bottom:12px;overflow:hidden;
+}
+.sheet.hidden{display:none}
+.sheet-head{
+  display:grid;grid-template-columns:104px 1fr auto;gap:20px;align-items:center;
+  padding:16px 18px;cursor:pointer;background:none;border:0;width:100%;text-align:left;font:inherit;
+}
+.sheet-head:hover{background:#FAFAF7}
+.sheet-head:focus-visible{outline:2px solid var(--mat);outline-offset:-2px}
+
+/* schematic — the signature element */
+.schem{
+  width:104px;height:74px;border:1px solid var(--rule);background:#FBFBF8;
+  border-radius:2px;display:block;
+}
+.schem rect.tile{stroke:rgba(0,0,0,.22);stroke-width:.6}
+
+.sheet-id{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.sheet-no{
+  font-family:var(--mono);font-size:21px;font-weight:600;letter-spacing:-.01em;
+}
+.sheet-no b{color:var(--ink-3);font-weight:400;font-size:13px;margin-right:1px}
+.sheet-date{font-size:13px;color:var(--ink-2)}
+.sheet-meta{font-size:13px;color:var(--ink-2);margin-top:3px}
+.chip{
+  display:inline-block;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;
+  text-transform:uppercase;padding:2px 7px;border-radius:2px;margin-right:5px;
+  background:var(--amber-soft);color:#8A5A11;
+}
+.chip.held{background:var(--held-soft);color:#8A3C26}
+
+/* fill gauge */
+.gauge{width:132px;text-align:right}
+.gauge-n{font-family:var(--mono);font-size:15px;font-weight:600;font-variant-numeric:tabular-nums}
+.gauge-track{height:5px;background:#EDEBE3;border-radius:3px;margin-top:5px;overflow:hidden}
+.gauge-fill{height:100%;background:var(--amber);border-radius:3px}
+.gauge-fill.ok{background:var(--ok)}
+.gauge-cap{font-family:var(--mono);font-size:10px;color:var(--ink-3);letter-spacing:.08em;text-transform:uppercase;margin-top:4px}
+
+/* ---------- Table ---------- */
+.rows{display:none;border-top:1px solid var(--rule)}
+.sheet.open .rows{display:block}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{
+  text-align:left;font-family:var(--mono);font-size:10px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-3);font-weight:600;
+  padding:9px 12px;border-bottom:1px solid var(--rule);background:#FBFBF8;
+}
+td{padding:9px 12px;border-bottom:1px solid #EFEEE7;vertical-align:top}
+tr:last-child td{border-bottom:0}
+tbody tr:hover{background:#FAFAF7}
+.ord{font-family:var(--mono);font-size:12.5px;color:var(--ink-2)}
+.student{font-weight:600}
+.ar{font-family:var(--arabic);font-size:15px}
+.qty{font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.swatch{
+  display:inline-block;width:8px;height:8px;border-radius:1px;margin-right:7px;
+  vertical-align:baseline;
+}
+mark{background:#FBEBB8;color:inherit;padding:0 1px;border-radius:2px}
+
+/* ---------- Pending ---------- */
+.pending{
+  background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--held);
+  border-radius:4px;padding:16px 18px;margin-bottom:12px;
+}
+.pending p{margin:0 0 12px;font-size:13.5px;color:var(--ink-2)}
+.pend-list{display:flex;flex-wrap:wrap;gap:7px}
+.pend{
+  font-size:12.5px;border:1px solid var(--rule);border-radius:3px;padding:5px 9px;background:#FBFBF8;
+}
+.pend b{font-family:var(--mono);font-size:12px}
+.pend i{font-style:normal;color:var(--ink-3);font-family:var(--mono);font-size:11px}
+.pend.old{border-color:var(--held);background:var(--held-soft)}
+
+.empty{
+  text-align:center;padding:56px 20px;color:var(--ink-2);
+  border:1px dashed var(--rule);border-radius:4px;background:var(--card);
+}
+.empty strong{display:block;font-size:16px;color:var(--ink);margin-bottom:5px}
+
+footer{
+  max-width:1180px;margin:0 auto;padding:0 32px 40px;
+  font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.04em;
+}
+
+/* ---------- Print: one sheet per page for the plotter folder ---------- */
+@media print{
+  .bar,footer,.pending{display:none}
+  body{background:#fff;font-size:11pt}
+  .mast{background:#fff;color:#000;border-bottom:2px solid #000;padding:0 0 12px;background-image:none}
+  .eyebrow,.stat dt{color:#555}
+  .stats{border-color:#ccc;background:#ccc}
+  .stat{background:#fff}
+  .stat dd{color:#000}
+  .sheet{break-inside:avoid;page-break-after:always;border-color:#999}
+  .rows{display:block!important}
+  .sheet-head{cursor:default}
+}
+@media (prefers-reduced-motion:no-preference){
+  .sheet{transition:border-color .12s ease}
+}
+@media (max-width:720px){
+  .mast,.bar,main,footer{padding-left:18px;padding-right:18px}
+  .sheet-head{grid-template-columns:64px 1fr;gap:12px}
+  .schem{width:64px;height:46px}
+  .gauge{grid-column:1/-1;width:100%;text-align:left;display:flex;align-items:center;gap:10px}
+  .gauge-track{flex:1;margin-top:0}
+  .gauge-cap{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="mast-in">
+    <p class="eyebrow">Craft Corner Label Maker</p>
+    <h1>Production report <span>· season 2026</span></h1>
+    <dl class="stats" id="stats"></dl>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="bar-in">
+    <div class="search">
+      <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6">
+        <circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/>
+      </svg>
+      <input id="q" type="search" placeholder="Search a student, school, order number…"
+             aria-label="Search sheets" autocomplete="off">
+    </div>
+    <div class="seg" role="group" aria-label="Filter sheets">
+      <button data-f="all" aria-pressed="true">All</button>
+      <button data-f="month" aria-pressed="false">This month</button>
+      <button data-f="low" aria-pressed="false">Under 90%</button>
+    </div>
+    <span class="count" id="count"></span>
+  </div>
+</div>
+
+<main>
+  <section id="pendingWrap"></section>
+
+  <div class="sec-head">
+    <h2>Exported sheets</h2><span class="rule"></span>
+  </div>
+  <div id="sheets"></div>
+  <div id="none" class="empty" hidden>
+    <strong>Nothing matches that search</strong>
+    Try an order number, a student's name, or a school.
+  </div>
+</main>
+
+<footer id="foot"></footer>
+
+<script>
+/* ------------------------------------------------------------------
+   This block is written by report/viewer.py from sheets_report.csv +
+   the run directory's packing_plan.json files. The two markers below
+   are replaced verbatim by string substitution — nothing else in this
+   file changes, so the template can be edited freely as a static file
+   and re-used indefinitely (§6.14: "generated HTML ... at zero
+   packaging cost").
+   ------------------------------------------------------------------ */
+const PRODUCTS = /*__PRODUCTS_JSON__*/{}/*__END_PRODUCTS_JSON__*/;
+
+const DATA = /*__DATA_JSON__*/{"generated":"","sheet_mm":{"w":420,"h":297},"sheets":[],"pending":[]}/*__END_DATA_JSON__*/;
+
+/* ---------------- render ---------------- */
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function stats(){
+  const sh = DATA.sheets;
+  const orders = new Set();
+  sh.forEach(s => s.rows.forEach(r => orders.add(r.ord)));
+  const avg = sh.reduce((a,s)=>a+s.fill,0)/sh.length;
+  const month = sh.filter(s=>s.date.startsWith("2026-08")).length;
+  const items = sh.reduce((a,s)=>a+s.rows.reduce((b,r)=>b+r.q,0),0);
+  $("#stats").innerHTML = [
+    ["Sheets exported", sh.length, ""],
+    ["Orders produced", orders.size, ""],
+    ["Label units cut", items, ""],
+    ["Average fill", (avg*100).toFixed(1), "%"],
+    ["Sheets this month", month, ""],
+    ["Waiting to pack", DATA.pending.length, ""]
+  ].map(([k,v,u]) => `<div class="stat"><dt>${k}</dt><dd>${v}<small>${u}</small></dd></div>`).join("");
+}
+
+function schematic(sheet){
+  const {w,h} = DATA.sheet_mm;
+  const t = sheet.tiles.map(t =>
+    `<rect class="tile" x="${t.x}" y="${t.y}" width="${t.w}" height="${t.h}"
+       fill="${PRODUCTS[t.p].colour}" opacity=".82" rx="1"/>`).join("");
+  return `<svg class="schem" viewBox="0 0 ${w} ${h}" role="img"
+    aria-label="Layout of sheet ${sheet.no}: ${sheet.tiles.length} tiles">${t}</svg>`;
+}
+
+function sheetCard(s){
+  const ok = s.fill >= 0.90;
+  const prods = {};
+  s.rows.forEach(r => prods[r.p] = (prods[r.p]||0) + r.q);
+  const mix = Object.entries(prods)
+    .map(([p,q]) => `<span class="swatch" style="background:${PRODUCTS[p].colour}"></span>${PRODUCTS[p].label} ×${q}`)
+    .join(" &nbsp; ");
+  const orders = new Set(s.rows.map(r=>r.ord)).size;
+
+  return `<article class="sheet" data-no="${s.no}" data-fill="${s.fill}" data-date="${s.date}">
+    <button class="sheet-head" aria-expanded="false">
+      ${schematic(s)}
+      <div>
+        <div class="sheet-id">
+          <span class="sheet-no"><b>SHEET</b> ${s.no}</span>
+          <span class="sheet-date">${s.date}</span>
+          ${s.forced ? '<span class="chip held">Force exported</span>' : ''}
+        </div>
+        <div class="sheet-meta">${orders} orders · ${s.tiles.length} tiles &nbsp;·&nbsp; ${mix}</div>
+      </div>
+      <div class="gauge">
+        <div class="gauge-n">${(s.fill*100).toFixed(1)}%</div>
+        <div class="gauge-track"><div class="gauge-fill ${ok?'ok':''}" style="width:${s.fill*100}%"></div></div>
+        <div class="gauge-cap">${ok?'Met threshold':'Below 90%'}</div>
+      </div>
+    </button>
+    <div class="rows">
+      <table>
+        <thead><tr>
+          <th>Order</th><th>Ordered</th><th>Customer</th><th>Student</th>
+          <th>Arabic</th><th>School</th><th>Grade</th><th>Product</th><th class="qty">Qty</th>
+        </tr></thead>
+        <tbody>${s.rows.map(r => `<tr>
+          <td class="ord">${r.ord}</td>
+          <td class="ord">${r.od}</td>
+          <td>${esc(r.cust)}</td>
+          <td class="student">${esc(r.stu)}</td>
+          <td class="ar" dir="auto">${esc(r.ar)}</td>
+          <td>${esc(r.school)}</td>
+          <td>${r.grade}</td>
+          <td><span class="swatch" style="background:${PRODUCTS[r.p].colour}"></span>${PRODUCTS[r.p].label}</td>
+          <td class="qty">${r.q}</td>
+        </tr>`).join("")}</tbody>
+      </table>
+    </div>
+  </article>`;
+}
+
+function pending(){
+  if(!DATA.pending.length){ $("#pendingWrap").innerHTML=""; return; }
+  const oldest = Math.max(...DATA.pending.map(p=>p.days));
+  $("#pendingWrap").innerHTML = `
+    <div class="sec-head"><h2>Waiting to pack</h2><span class="rule"></span></div>
+    <div class="pending">
+      <p>${DATA.pending.length} orders are fetched but not yet on a full enough sheet.
+         The oldest has been waiting <strong>${oldest} days</strong>.</p>
+      <div class="pend-list">${DATA.pending.map(p=>`
+        <span class="pend ${p.days>=10?'old':''}">
+          <b>${p.ord}</b> ${esc(p.stu)} <i>· ${esc(p.items)} · ${p.days}d</i>
+        </span>`).join("")}</div>
+    </div>`;
+}
+
+function render(){
+  stats(); pending();
+  $("#sheets").innerHTML = DATA.sheets.map(sheetCard).join("");
+  $("#foot").textContent =
+    `Generated ${DATA.generated} · from sheets_report.csv · Craft Corner Label Maker` +
+    /* Malformed rows are skipped, never allowed to fail the whole report,
+       but the count must be VISIBLE — a silently shorter report is worse
+       than an obviously incomplete one (§6.14 failure table). */
+    (DATA.skipped_rows ? ` · ⚠ ${DATA.skipped_rows} malformed row(s) skipped` : "");
+  filter();
+}
+
+/* ---------------- interaction ---------------- */
+document.addEventListener("click", e => {
+  const head = e.target.closest(".sheet-head");
+  if(head){
+    const card = head.closest(".sheet");
+    const open = card.classList.toggle("open");
+    head.setAttribute("aria-expanded", open);
+  }
+  const seg = e.target.closest(".seg button");
+  if(seg){
+    document.querySelectorAll(".seg button").forEach(b =>
+      b.setAttribute("aria-pressed", b === seg));
+    filter();
+  }
+});
+$("#q").addEventListener("input", filter);
+
+function filter(){
+  const q = $("#q").value.trim().toLowerCase();
+  const mode = document.querySelector('.seg button[aria-pressed="true"]').dataset.f;
+  let shown = 0;
+
+  DATA.sheets.forEach(s => {
+    const card = document.querySelector(`.sheet[data-no="${s.no}"]`);
+    let ok = true;
+    if(mode === "month") ok = s.date.startsWith("2026-08");
+    if(mode === "low")   ok = s.fill < 0.90;
+
+    if(ok && q){
+      const hay = (s.no + " " + s.rows.map(r =>
+        [r.ord,r.cust,r.stu,r.ar,r.school,r.grade,PRODUCTS[r.p].label].join(" ")).join(" ")).toLowerCase();
+      ok = hay.includes(q);
+      if(ok) card.classList.add("open"),
+             card.querySelector(".sheet-head").setAttribute("aria-expanded","true");
+    }
+    card.classList.toggle("hidden", !ok);
+    if(ok) shown++;
+    highlight(card, q);
+  });
+
+  $("#count").textContent = shown + (shown === 1 ? " sheet" : " sheets");
+  $("#none").hidden = shown > 0;
+}
+
+function highlight(card, q){
+  card.querySelectorAll("td").forEach(td => {
+    const raw = td.dataset.raw || (td.dataset.raw = td.innerHTML);
+    if(!q){ td.innerHTML = raw; return; }
+    td.innerHTML = raw.replace(
+      new RegExp(`(?![^<]*>)(${q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, "ig"),
+      "<mark>$1</mark>");
+  });
+}
+
+render();
+</script>
+</body>
+</html>

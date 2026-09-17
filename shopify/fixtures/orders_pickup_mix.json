@@ -1,0 +1,205 @@
+{
+  "note": "Synthetic 15-order fixture mimicking a mixed unfulfilled/pickup-ready batch.",
+  "orders": [
+    {
+      "name": "#Test1001",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "IN_PROGRESS",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "Notified",
+      "expected_printable": false
+    },
+    {
+      "name": "#Test1002",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "IN_PROGRESS",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "Notified",
+      "expected_printable": false
+    },
+    {
+      "name": "#Test1003",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "IN_PROGRESS",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "Notified",
+      "expected_printable": false
+    },
+    {
+      "name": "#Test1004",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "CLOSED",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        },
+        {
+          "status": "IN_PROGRESS",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "Notified",
+      "expected_printable": false
+    },
+    {
+      "name": "#Test1005",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "IN_PROGRESS",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "Notified",
+      "expected_printable": false
+    },
+    {
+      "name": "#Test1006",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "OPEN",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "",
+      "expected_printable": true
+    },
+    {
+      "name": "#Test1007",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "OPEN",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "",
+      "expected_printable": true
+    },
+    {
+      "name": "#Test1008",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "OPEN",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "",
+      "expected_printable": true
+    },
+    {
+      "name": "#Test1009",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "OPEN",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "",
+      "expected_printable": true
+    },
+    {
+      "name": "#Test1010",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "OPEN",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "",
+      "expected_printable": true
+    },
+    {
+      "name": "#Test1011",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "OPEN",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "",
+      "expected_printable": true
+    },
+    {
+      "name": "#Test1012",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "OPEN",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "",
+      "expected_printable": true
+    },
+    {
+      "name": "#Test1013",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "OPEN",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "",
+      "expected_printable": true
+    },
+    {
+      "name": "#Test1014",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "OPEN",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "",
+      "expected_printable": true
+    },
+    {
+      "name": "#Test1015",
+      "fulfillment_status": "unfulfilled",
+      "fulfillment_orders": [
+        {
+          "status": "OPEN",
+          "requestStatus": "UNSUBMITTED",
+          "fulfillmentHolds": []
+        }
+      ],
+      "tags": "",
+      "expected_printable": true
+    }
+  ]
+}

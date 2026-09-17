@@ -1,0 +1,199 @@
+{
+  "_readme": [
+    "Defines what each pack product actually contains.",
+    "A pack is NOT one full sheet — it is a selected mix of label sheets,",
+    "each cropped from its own region on either the Value Pack artwork (vp)",
+    "or the Extras artwork (extras).",
+    "",
+    "IMPORTANT — quantities here are REGION CROPS, not individual labels.",
+    "The iron_on_labels region contains 3 physical iron-on labels, so",
+    "'6 iron-on labels' is 2 crops. See labels_per_region below.",
+    "",
+    "Option-string matching is case-insensitive and whitespace-collapsed,",
+    "so '1 Large - 2 medium  - 1 subjects sheets' (double space) matches.",
+    "An unlisted option raises UNKNOWN_PACK_COMPOSITION and goes to manual",
+    "review. It is never guessed at."
+  ],
+  "sheet_of_region": {
+    "large_labels": "vp",
+    "medium_labels": "vp",
+    "mixed_labels": "vp",
+    "pencil_labels": "vp",
+    "iron_on_labels": "vp",
+    "sticker_sheet": "vp",
+    "bag_tag": "vp",
+    "lunch_tag": "vp",
+    "order_id": "vp",
+    "payment_sheet": "extras",
+    "subject_sheet": "extras",
+    "shoe_labels": "extras"
+  },
+  "labels_per_region": {
+    "iron_on_labels": 3
+  },
+  "individual_products": {
+    "_readme": "Single-sheet products. count_from_title divides the (N pack) number in the product name by labels_per_region to get crop count.",
+    "iron on labels": {
+      "region": "iron_on_labels",
+      "count_from_title": true
+    },
+    "iron ons": {
+      "region": "iron_on_labels",
+      "count_from_title": true
+    }
+  },
+  "packs": {
+    "value pack": {
+      "label": "Value Pack",
+      "always": [
+        {
+          "region": "iron_on_labels",
+          "qty": 2,
+          "note": "6 iron-on labels = 2 crops of 3"
+        },
+        {
+          "region": "bag_tag",
+          "qty": 1
+        },
+        {
+          "region": "lunch_tag",
+          "qty": 1
+        }
+      ],
+      "choices": [
+        "main_sheets",
+        "pencil_sheets"
+      ]
+    },
+    "mini pack": {
+      "label": "Mini Pack",
+      "always": [
+        {
+          "region": "large_labels",
+          "qty": 1
+        },
+        {
+          "region": "medium_labels",
+          "qty": 1
+        },
+        {
+          "region": "pencil_labels",
+          "qty": 1
+        },
+        {
+          "region": "iron_on_labels",
+          "qty": 1,
+          "note": "3 iron-on labels = 1 crop"
+        },
+        {
+          "region": "bag_tag",
+          "qty": 1
+        }
+      ],
+      "choices": []
+    },
+    "micro pack": {
+      "label": "Micro Pack",
+      "always": [
+        {
+          "region": "mixed_labels",
+          "qty": 1
+        },
+        {
+          "region": "pencil_labels",
+          "qty": 1
+        },
+        {
+          "region": "bag_tag",
+          "qty": 1
+        }
+      ],
+      "choices": []
+    }
+  },
+  "choice_fields": {
+    "main_sheets": {
+      "source_field": "main_sheet_choices",
+      "options": {
+        "standard.. 1 large - 1 medium - 1 subject - 1 payment sheet": [
+          {
+            "region": "large_labels",
+            "qty": 1
+          },
+          {
+            "region": "medium_labels",
+            "qty": 1
+          },
+          {
+            "region": "subject_sheet",
+            "qty": 1
+          },
+          {
+            "region": "payment_sheet",
+            "qty": 1
+          }
+        ],
+        "2 large & 2 medium sheets only": [
+          {
+            "region": "large_labels",
+            "qty": 2
+          },
+          {
+            "region": "medium_labels",
+            "qty": 2
+          }
+        ],
+        "1 large - 2 medium - 1 subjects sheets": [
+          {
+            "region": "large_labels",
+            "qty": 1
+          },
+          {
+            "region": "medium_labels",
+            "qty": 2
+          },
+          {
+            "region": "subject_sheet",
+            "qty": 1
+          }
+        ],
+        "1 large - 2 medium - 1 pencil sheet": [
+          {
+            "region": "large_labels",
+            "qty": 1
+          },
+          {
+            "region": "medium_labels",
+            "qty": 2
+          },
+          {
+            "region": "pencil_labels",
+            "qty": 1
+          }
+        ]
+      }
+    },
+    "pencil_sheets": {
+      "source_field": "pencil_choice",
+      "options": {
+        "standard.. 1 pencil sheet - 1 shoe labels sheet": [
+          {
+            "region": "pencil_labels",
+            "qty": 1
+          },
+          {
+            "region": "shoe_labels",
+            "qty": 1
+          }
+        ],
+        "2 pencil sheets only": [
+          {
+            "region": "pencil_labels",
+            "qty": 2
+          }
+        ]
+      },
+      "optional": true
+    }
+  }
+}
